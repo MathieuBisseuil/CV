@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Compiled and minified CSS -->
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <!-- Compiled and minified JavaScript -->
-    <title>M.Bisseuil</title>
-    <!-- <style>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Compiled and minified CSS -->
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Compiled and minified JavaScript -->
+  <title>M.Bisseuil</title>
+  <!-- <style>
     header {
       background: url(images/ai.jpg);
       background-size: cover;
@@ -41,593 +29,538 @@
       }
     }
   </style> -->
-  </head>
-  <body>
-    <header>
-      <!-- navbar -->
-      <div class="navbar-fixed">
-        <nav class="nav-wrapper blue-grey darken-4 z-depth-3">
-          <div class="container">
-            <a href="#" class="brand-logo">M.Bisseuil</a>
-            <a href="#" class="sidenav-trigger" data-target="mobile-links">
-              <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down ">
-              <li><a href="#competences">Compétences</a></li>
-              <li><a href="#techno">Technologies</a></li>
-              <li><a href="#formation">Formation</a></li>
-              <li><a href="#experience">Expériences</a></li>
-              
-              <li>
-                <a href="https://github.com/MathieuBisseuil"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/mathieu-bisseuil-5417bb26"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper blue-grey darken-4 z-depth-3">
+        <div class="container">
+          <a href="#" class="brand-logo">M.Bisseuil</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down ">
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#techno">Technologies</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#experience">Expériences</a></li>
+
+            <li>
+              <a href="https://github.com/MathieuBisseuil"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mathieu-bisseuil-5417bb26"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- sidenav qui n'apparait que sur mobile -->
+    <ul class="sidenav grey lighten-2" id="mobile-links">
+      <li>
+        <a href="#competences"><span style="font-size: 2em; color:#607d8b;"><i class="fas fa-award"></i>
+            Compétences</span></a>
+      </li>
+      <li>
+        <a href="#techno"><span style="font-size: 2em; color:#607d8b;">
+            <i class="fas fa-code"></i> Technologies
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#formation"><span style="font-size: 2em; color:#607d8b;">
+            <i class="fas fa-graduation-cap"></i> Formation
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#experience"><span style="font-size: 2em; color:#607d8b;"><i class="fa fa-suitcase"
+              aria-hidden="true"></i>
+            Expériences</span></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/mathieu-bisseuil-5417bb26/"><span style="font-size: 2em; color:#607d8b;">
+            <i class="fab fa-linkedin"></i> Linkedin</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/MathieuBisseuil"><span style="font-size: 2em; color:#607d8b;">
+            <i class="fab fa-github"></i> GitHub</span>
+        </a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <section class="container center">
+      <h4 class="center deep-orange-text">Chef de Projet informatique / AMOA</h4><br>
+      <div class="row">
+        <div class="col s12 l5">
+          <img src="images/moi profil.jpg" alt="" class=" w3-round-xxlarge" style="width: 50%">
+        </div>
+        <div class="col s12 l7">
+          <h2 class="teal-text darken-4">Mathieu Bisseuil</h2>
+          <blockquote>
+            Après de nombreuses années passées dans l'aéronavale,
+            passionné par l'informatique et le Management,
+            je souhaiterai réunir mes passions et mes connaissances
+            pour en faire mon métier.
+          </blockquote>
+          <a class="waves-effect waves-light btn" href="mailto:mathieu.bisseuil@gmail.com
+                      ?subject=contact"><i class="material-icons right">mail</i>contact</a>
+        </div>
       </div>
-      <!-- sidenav qui n'apparait que sur mobile -->
-      <ul class="sidenav grey lighten-2" id="mobile-links">
-        <li>
-          <a href="#competences"
-            ><span style="font-size: 2em; color:#607d8b;"
-              ><i class="fas fa-award"></i> Compétences</span
-            ></a
-          >
+    </section>
+    <!-- compétences -->
+    <div class="divider" id="competences"></div>
+
+    <section class="container">
+      <h2 class="header valign">Compétences</h2>
+      <br />
+
+      <div class="row">
+        <div class="col s12 l5 push-l7">
+          <img src="images/cod.jpg" class="responsive-img materialboxed z-depth-3" alt="" />
+        </div>
+        <div class="col s12 l6 pull-l5">
+          <h3 class="deep-orange-text">Développement d'applicatifs</h3>
+          <ul>
+            <li>Java JEE (EJB3, persistance des données, jsp/servlet/beans, swing, JDBC, jUnit)</li>
+            <li>Ruby, RubyOnRails</li>
+            <li>Adelia, WebAdelia</li>
+            <li>Web 2.0 : XMLHttpRequest/innerHTML, jquery, ajax</li>
+            <li>Web 1.0 : HTML, CSS, JavaScript</li>
+            <li>Bases de données (SQL, MySQL, XML)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l5 ">
+          <div class="card-image">
+            <img src="images/adult-analyzing.jpg" class="responsive-img materialboxed z-depth-3" alt="" />
+          </div>
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h3 class="deep-orange-text">Management</h3>
+          <ul>
+            <li>
+              Gestion d'équipes pluridisciplinaires de 15 personnes sur divers
+              projets.
+            </li>
+            <li>
+              Motivation, support, outillage et accompagnement de l'équipe
+              pour un même but.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l5 push-l7">
+          <img src="images/business-camera-coffee-1509428.jpg" class="responsive-img materialboxed z-depth-3" alt="" />
+        </div>
+        <div class="col s12 l6 pull-l5">
+          <h3 class="deep-orange-text">Gestion de projets</h3>
+          <ul>
+            <li>Formation Agile Certifiante de Product Owner</li>
+            <li>Méthode Agile/Scrum et Cycle en V</li>
+            <li>Planification des ressources</li>
+            <li>Collecte des exigences</li>
+            <li>Optimisation des processus</li>
+            <li>Communication entre équipes hétérogènes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l5 ">
+          <div class="card-image">
+            <img src="images/adult-blue-blue-eyes.jpg" class="responsive-img materialboxed z-depth-3" alt="" />
+          </div>
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h3 class="deep-orange-text">Innovation et Veille technologique</h3>
+          <ul>
+            <li>
+              Recherche continuelle de nouvelles Technologies pour aller
+              toujours plus loin et plus vite
+            </li>
+            <li>Adaptation de l'existant à l'écosystème actuel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- techologies -->
+    <div class="divider" id="techno"></div>
+    <section class="container ">
+      <h2>Technologies</h2>
+      <p>(liste non exhaustive)</p>
+
+      <div class="row">
+        <h4 class="deep-orange-text">Langages</h4>
+        <div class="col s12 l4">
+          <p>Java, HTML 5, CSS 3, Javascript, SQL, MySQL...</p>
+        </div>
+        <div class="col s12 l8">
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img alt="Java" src="images/java.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img alt="Js" src="images/HTML5_logo.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img alt="Js" src="images/css3.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img alt="Js" src="images/JavaScript_logo_2.svg.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/SQL.jpg" alt="SQL" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/MySQL.jpg" alt="MySQL" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin langages -->
+      <!-- frameworks -->
+      <div class="row">
+
+        <h4 class="deep-orange-text">Frameworks</h4>
+        <div class="col s12 l4">
+          JavaFX, Materialize 1.0.0, Bootstrap 4, Vue.js...
+        </div>
+        <div class="col s12 l8">
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/JavaFXCup350x400.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/materialize.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/bootstrap-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/vue-js.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- fin frameworks -->
+      <!-- outils -->
+      <div class="row">
+        <h4 class="deep-orange-text">Outils</h4>
+        <div class="col s12 l4">
+          Visual Studio Code, Netbeans, Gimp, VBA, MsProject, Microsoft Office...
+        </div>
+        <div class="col s12 l8">
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/VS_Code.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/netbeans2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/Wilber-gimp.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/VBA.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/MS-Project.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col s3 l2">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/office.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin outils -->
+    </section>
+    <div class="divider" id="formation"></div>
+    <!-- Formation -->
+    <section class="container">
+      <h2>Formations</h2>
+      <div class="row">
+        <div class="col s12 l6">
+          <h4 class="deep-orange-text"><i class="fas fa-graduation-cap"></i> Formations suivies</h4>
+          <ul>
+            <li>
+              AFPA (Paris 12)
+            </li>
+            <li>
+              Ecole nationale de l'aviation civile (Toulouse)
+            </li>
+            <li>
+              Niveau <strong>Licence</strong> d'informatique (UVSQ - Versailles)
+            </li>
+            <li>
+              Cycle préparatoire à l'Ecole Centrale d'Electronique (Paris)
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 l6">
+          <h4 class="deep-orange-text"><i class="fas fa-graduation-cap"></i> Titres obtenus</h4>
+          <ul>
+            <li>
+              Concepteur Développeur informatique <strong>(Niv II)</strong>
+            </li>
+            <li>
+              Licence européenne de contrôleur aérien <strong>(Niv II)</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Expériences -->
+    <div class="divider" id="experience"></div>
+
+
+    <section class="container">
+      <h2>Expériences</h2>
+      <br />
+      <ul class="collapsible">
+        <li class="active">
+          <div class="collapsible-header">
+            <i class="material-icons">expand_more</i>Société pour l'informatique industrielle
+            <span class="badge">Depuis Novembre 2018</span>
+          </div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s2 l2">
+                <img class="responsive-img" src="images/SII.png" alt="" />
+              </div>
+              <div class="col s10 l10">
+                <h6>
+                  <strong>Chef de projet AMOA / Responsable de périmètre</strong>
+                </h6>
+                <ul>
+                  <li>Gestion d'une transformation en mode forfait sur un périmètre en assistance technologique</li>
+                  <li>Gestion des ressources et planification de multiples projets</li>
+                  <li>Gestion de l'assurance qualité pour les développements et les logiciels</li>
+                  <li>Formation des membres de l'équipe aux processus de développement et à la méthode Agile</li>
+                  <li>Mise en place d'outils de suivi de projets et d'indicateurs qualités</li>
+                  <li>Coordination avec le client pour l'ajustement de la planification en fonction des besoins</li>
+                  <li>Collaboration avce les développeurs pour planifier les échéances du projet</li>
+                  <li>Elaboration des rapports d'activités, estimation des coûts et planification des ressources</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </li>
         <li>
-          <a href="#techno"
-            ><span style="font-size: 2em; color:#607d8b;">
-              <i class="fas fa-code"></i> Technologies
-            </span>
-          </a>
+          <div class="collapsible-header">
+            <i class="material-icons">expand_more</i>Société pour l'informatique industrielle
+            <span class="badge">Septembre 2017 - Octobre 2018</span>
+          </div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s2 l2">
+                <img class="responsive-img" src="images/SII.png" alt="" />
+              </div>
+              <div class="col s10 l10">
+                <h6>
+                  <strong>Ingénieur étude et développement</strong>
+                </h6>
+                <ul>
+                  <li>Activités de support, création de tickets et répartition des tâches</li>
+                  <li>Correction de bugs remontés par les utilisateurs</li>
+                  <li>Activités de test unitaires et de recette.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </li>
         <li>
-          <a href="#formation"
-            ><span style="font-size: 2em; color:#607d8b;">
-              <i class="fas fa-graduation-cap"></i> Formation
-            </span>
-          </a>
+          <div class="collapsible-header">
+            <i class="material-icons">expand_more</i>Ausy
+            <span class="badge">Mai - Septembre 2017 </span>
+          </div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s2 l2">
+                <img class="responsive-img" src="images/Ausy.jpeg" alt="" />
+              </div>
+              <div class="col s10 l10">
+                <h6>
+                  <strong>Ingénieur étude et développement</strong>
+                </h6>
+                <ul>
+                  <li>
+                    Correction d'anomalies et évolutions sur un progiciel de gestion de compte épargne retraite.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </li>
         <li>
-          <a href="#experience"
-            ><span style="font-size: 2em; color:#607d8b;"
-              ><i class="fa fa-suitcase" aria-hidden="true"></i>
-              Expériences</span
-            ></a
-          >
+          <div class="collapsible-header">
+            <i class="material-icons">expand_more</i>Micropole
+            <span class="badge">2013/2014</span>
+          </div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s2 l2">
+                <img class="responsive-img" src="images/Micropole.png" alt="" />
+              </div>
+              <div class="col s10 l10">
+                <h6><strong>Concepteur Développeur Informatique Stagiaire</strong></h6>
+                <ul>
+                  <li>
+                    Production de reporting par le biais de iReport
+                  </li>
+                  <li>
+                    Création de Script SQL en Batch.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/mathieu-bisseuil-5417bb26/"
-            ><span style="font-size: 2em; color:#607d8b;">
-              <i class="fab fa-linkedin"></i> Linkedin</span
-            >
-          </a>
+          <div class="collapsible-header">
+            <i class="material-icons">expand_more</i>Centre Défense de Programmation et de Gestion de l'Espace
+            <span class="badge">Octobre 2010 - Juin 2016</span>
+          </div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s2 l2">
+                <img class="responsive-img" src="images/DSAE.png" alt="" />
+              </div>
+              <div class="col s10 l10">
+                <h6><strong>Négociateur d'espace aérien, Chef d'équipe</strong></h6>
+                <ul>
+                  <li>
+                    Programmation et réservation de l'activité aérienne militaire
+                  </li>
+                  <li>
+                    Négociateur sur les créneaux entrant en conflit avec une charge de trafic civil important
+                  </li>
+                  <li>
+                    Gestion d'une équipe de 25 personnes
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </li>
         <li>
-          <a href="https://github.com/MathieuBisseuil"
-            ><span style="font-size: 2em; color:#607d8b;">
-              <i class="fab fa-github"></i> GitHub</span
-            >
-          </a>
+          <div class="collapsible-header">
+            <i class="material-icons">expand_more</i>Marine Nationale
+            <span class="badge">Septembre 2006 - Octobre 2010</span>
+          </div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s2 l2">
+                <img class="responsive-img" src="images/Marine.png" alt="" />
+              </div>
+              <div class="col s10 l10">
+                <h6><strong>Contrôleur local d'aérodrôme</strong></h6>
+                <ul>
+                  <li>
+                    Contrôle de l'activité aérienne.
+                  </li>
+                  <li>
+                    Responsable de la formation des contrôleur sur simulateur
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
-    </header>
-    <main>
-      <section class="container center">
-        <h4 class="center deep-orange-text">Chef de Projet informatique / AMOA</h4><br>
-        <div class="row">
-          <div class="col s12 l5">
-            <img src="images/moi profil.jpg" alt="" class=" rounded responsive-img z-depth-1" width="200" height="200">
-          </div>
-          <div class="col s12 l7">
-            <h2 class="teal-text darken-4">Mathieu Bisseuil</h2>
-                    <blockquote>
-                      Après de nombreuses années passées dans l'aéronavale, 
-                      passionné par l'informatique et le Management,
-                      je souhaiterai réunir mes passions et mes connaissances
-                      pour en faire mon métier.
-                    </blockquote>
-                    <a class="waves-effect waves-light btn" href="mailto:mathieu.bisseuil@gmail.com
-                      ?subject=contact"><i class="material-icons right">mail</i>contact</a>
-          </div>
+    </section>
+  </main>
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l7">
+          <h5>Mathieu BISSEUIL</h5>
+          <p>
+            mathieu.bisseuil@gmail.com <br />
+            06 86 50 41 31
+          </p>
         </div>
-          </section>
-      <!-- compétences -->
-      <div class="divider" id="competences"></div>
-
-      <section class="container">
-        <h2 class="header valign">Compétences</h2>
-        <br />
-
-        <div class="row">
-          <div class="col s12 l5 push-l7">
-            <img
-              src="images/cod.jpg"
-              class="responsive-img materialboxed z-depth-3"
-              alt=""
-            />
-          </div>
-          <div class="col s12 l6 pull-l5">
-            <h3 class="deep-orange-text">Développement d'applicatifs</h3>
-            <ul>
-              <li>Java JEE (EJB3, persistance des données, jsp/servlet/beans, swing, JDBC, jUnit)</li>
-              <li>Ruby, RubyOnRails</li>
-              <li>Adelia, WebAdelia</li>
-              <li>Web 2.0 : XMLHttpRequest/innerHTML, jquery, ajax</li>
-              <li>Web 1.0 : HTML, CSS, JavaScript</li>
-              <li>Bases de données (SQL, MySQL, XML)</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 l5 ">
-            <div class="card-image">
-              <img
-                src="images/adult-analyzing.jpg"
-                class="responsive-img materialboxed z-depth-3"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col s12 l6 offset-l1">
-            <h3 class="deep-orange-text">Management</h3>
-            <ul>
-              <li>
-                Gestion d'équipes pluridisciplinaires de 15 personnes sur divers
-                projets.
-              </li>
-              <li>
-                Motivation, support, outillage et accompagnement de l'équipe
-                pour un même but.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 l5 push-l7">
-            <img
-              src="images/business-camera-coffee-1509428.jpg"
-              class="responsive-img materialboxed z-depth-3"
-              alt=""
-            />
-          </div>
-          <div class="col s12 l6 pull-l5">
-            <h3 class="deep-orange-text">Gestion de projets</h3>
-            <ul>
-              <li>Formation Agile Certifiante de Product Owner</li>
-              <li>Méthode Agile/Scrum et Cycle en V</li>
-              <li>Planification des ressources</li>
-              <li>Collecte des exigences</li>
-              <li>Optimisation des processus</li>
-              <li>Communication entre équipes hétérogènes</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 l5 ">
-            <div class="card-image">
-              <img
-                src="images/adult-blue-blue-eyes.jpg"
-                class="responsive-img materialboxed z-depth-3"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col s12 l6 offset-l1">
-            <h3 class="deep-orange-text">Innovation et Veille technologique</h3>
-            <ul>
-              <li>
-                Recherche continuelle de nouvelles Technologies pour aller
-                toujours plus loin et plus vite
-              </li>
-              <li>Adaptation de l'existant à l'écosystème actuel</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- techologies -->
-      <div class="divider" id="techno"></div>
-      <section class="container ">
-        <h2>Technologies</h2>
-        <p>(liste non exhaustive)</p>
-
-        <div class="row">
-          <h4 class="deep-orange-text">Langages</h4>
-          <div class="col s12 l4">
-            <p>Java, JEE, HTML 5, CSS 3, Javascript, Ruby, RubyOnRails, SQL, MySQL...</p>
-          </div>
-          <div class="col s12 l8">
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img  alt="Java" src="images/java.jpg" />
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img  alt="JEE" src="images/JEE.png" />
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img alt="Js" src="images/HTML5_logo.png" />
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img alt="Js" src="images/css3.png" />
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img alt="Js" src="images/JavaScript_logo_2.svg.png"/>
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/Ruby.jpg" alt="Php" />
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/SQL.jpg" alt="Dart" />
-                </div>
-              </div>
-            </div>
-            <div class="col s3 l2">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/MySQL.jpg" alt="Swift" />
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <!-- fin langages -->
-        <!-- frameworks -->
-        <div class="row">
-          
-          <h4 class="deep-orange-text">Frameworks</h4>
-          <div class="col s12 l4">
-            JavaFX, Materialize 1.0.0, Bootstrap 4, Vue.js...
-            </div>
-            <div class="col s12 l8">
-              <div class="col s3 l2">
-                <div class="card">
-                  <div class="card-image">
-                    <img
-                      src="images/JavaFXCup350x400.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="col s3 l2">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/materialize.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="col s3 l2">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/bootstrap-logo.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="col s3 l2">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/vue-js.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-        </div>
-        <!-- fin frameworks -->
-        <!-- outils -->
-        <div class="row">
-          <h4 class="deep-orange-text">Outils</h4>
-          <div class="col s12 l4">
-            Visual Studio Code, Netbeans, MsProject, Microsoft Office, VBA, Gimp...
-            </div>
-            <div class="col s12 l8">
-              <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/VS_Code.png" alt="" />
-                </div>
-              </div>
-              </div>
-              <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/netbeans2.png" alt="" />
-                </div>
-              </div>
-              </div>
-              <div class="col s3 l2">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="images/MS-Project.jpg" alt="" />
-                    </div>
-                  </div>
-                  </div>
-              <div class="col s3 l2">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/office.png" alt="" />
-                </div>
-              </div>
-              </div>
-              <div class="col s3 l2">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/VBA.png" alt="" />
-                  </div>
-                </div>
-                </div>
-                <div class="col s3 l2">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="images/Wilber-gimp.png" alt="" />
-                      </div>
-                    </div>
-                    </div>
-            </div>
-        </div>
-        <!-- fin outils -->
-      </section>
-      <div class="divider" id="formation"></div>
-      <!-- Formation -->
-      <section class="container">
-        <h2>Formations</h2>
-<div class="row">
-  <div class="col s12 l6">
-<h4 class="deep-orange-text"><i class="fas fa-graduation-cap"></i> Diplomes</h4>
- <ul>
-     <li>
-         AFPA (Paris 12)
-     </li>
-     <li>
-         Ecole nationale de l'aviation civile (Toulouse)
-     </li>
-     <li>
-         Niveau <strong>Licence</strong> d'informatique
-     </li>
-     <li>
-       Cycle préparatoire à l'Ecole Centrale d'Electronique (Paris)
-     </li>
- </ul>
-  </div>
-  <div class="col s12 l6">
-    <h4 class="deep-orange-text"><i class="fas fa-graduation-cap"></i> Titres</h4>
-    <ul>
-     <li>
-        Concepteur Développeur informatique <strong>(Niv II)</strong>
-     </li>
-     <li>
-        Licence européenne de contrôleur aérien <strong>(Niv II)</strong>
-     </li>
- </ul>
-  </div>
-</div>
-      </section>
-      <!-- Expériences -->
-      <div class="divider" id="experience"></div>
-
-
-      <section class="container" >
-        <h2>Expériences</h2>
-        <br />
-        <ul class="collapsible">
-            <li class="active">
-                <div class="collapsible-header">
-                  <i class="material-icons">expand_more</i>Société pour l'informatique industrielle
-                  <span class="badge">Depuis Novembre 2018</span>
-                </div>
-                <div class="collapsible-body">
-                  <div class="row">
-                    <div class="col s2 l2">
-                      <img class="responsive-img" src="images/SII.png" alt="" />
-                    </div>
-                    <div class="col s10 l10">
-                      <h6>
-                        Chef de projet AMOA / Responsable de périmètre
-                      </h6>
-                      <ul>
-                        <li>Gestion d'une transformation en mode forfait sur un périmètre en assistance technologique</li>
-                        <li>Gestion des ressources et planification de multiples projets</li>
-                        <li>Gestion de l'assurance qualité pour les développements et les logiciels</li>
-                        <li>Formation des membres de l'équipe aux processus de développement et à la méthode Agile</li>
-                        <li>Mise en place d'outils de suivi de projets et d'indicateurs qualités</li>
-                        <li>Coordination avec le client pour l'ajustement de la planification en fonction des besoins</li>
-                        <li>Collaboration avce les développeurs pour planifier les échéances du projet</li>
-                        <li>Elaboration des rapports d'activités, estimation des coûts et planification des ressources</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
-          <li >
-            <div class="collapsible-header">
-              <i class="material-icons">expand_more</i>Société pour l'informatique industrielle
-              <span class="badge">Septembre 2017 - Octobre 2018</span>
-            </div>
-            <div class="collapsible-body">
-              <div class="row">
-                <div class="col s2 l2">
-                  <img class="responsive-img" src="images/SII.png" alt="" />
-                </div>
-                <div class="col s10 l10">
-                  <h6>
-                    Ingénieur étude et développement
-                  </h6>
-                  <ul>
-                    <li>Activités de support, création de tickets et répartition des tâches</li>
-                    <li>Correction de bugs remontés par les utilisateurs</li>
-                    <li>Activités de test unitaires et de recette.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="collapsible-header">
-              <i class="material-icons">expand_more</i>Ausy
-              <span class="badge">Mai - Septembre 2017 </span>
-            </div>
-            <div class="collapsible-body">
-              <div class="row">
-                <div class="col s2 l2">
-                  <img
-                    class="responsive-img"
-                    src="images/Ausy.jpeg"
-                    alt=""
-                  />
-                </div>
-                <div class="col s10 l10">
-                  <h6>
-                    Ingénieur étude et développement
-                  </h6>
-                  <ul>
-                    <li>
-                      Correction d'anomalies et évolutions sur un progiciel de gestion de compte épargne retraite.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="collapsible-header">
-              <i class="material-icons">expand_more</i>Micropole
-              <span class="badge">2013/2014</span>
-            </div>
-            <div class="collapsible-body">
-              <div class="row">
-                <div class="col s2 l2">
-                  <img class="responsive-img" src="images/Micropole.png" alt="" />
-                </div>
-                <div class="col s10 l10">
-                  <h6>Concepteur Développeur Informatique Stagiaire</h6>
-                  <ul>
-                    <li>
-                      Production de reporting par le biais de iReport
-                    </li>
-                    <li>
-                      Création de Script SQL en Batch.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="collapsible-header">
-              <i class="material-icons">expand_more</i>Centre Défense de Programmation et de Gestion de l'Espace
-              <span class="badge">Octobre 2010 - Juin 2016</span>
-            </div>
-            <div class="collapsible-body">
-              <div class="row">
-                <div class="col s2 l2">
-                  <img
-                    class="responsive-img"
-                    src="images/DSAE.png"
-                    alt=""
-                  />
-                </div>
-                <div class="col s10 l10">
-                  <h6>Négociateur d'espace aérien, Chef d'équipe</h6>
-                  <ul>
-                    <li>
-                      Programmation et réservation de l'activité aérienne militaire
-                    </li>
-                    <li>
-                      Négociateur sur les créneaux entrant en conflit avec une charge de trafic civil important
-                    </li>
-                    <li>
-                      Gestion d'une équipe de 25 personnes
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="collapsible-header">
-              <i class="material-icons">expand_more</i>Marine Nationale
-              <span class="badge">Septembre 2006 - Octobre 2010</span>
-            </div>
-            <div class="collapsible-body">
-              <div class="row">
-                <div class="col s2 l2">
-                  <img class="responsive-img" src="images/Marine.png" alt="" />
-                </div>
-                <div class="col s10 l10">
-                  <h6>Contrôleur local d'aérodrôme</h6>
-                  <ul>
-                    <li>
-                      Contrôle de l'activité aérienne.
-                    </li>
-                    <li>
-                      Responsable de la formation des contrôleur sur simulateur
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="page-footer blue-grey">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 l7">
-            <h5>Mathieu BISSEUIL</h5>
-            <p>
-              mathieu.bisseuil@gmail.com <br />
-              06 86 50 41 31
-            </p>
-          </div>
-          <div class="col s12 l5 right-align">
-            <span style="font-size: 3em">
-              <i class="fab fa-linkedin"></i>
-            </span>
-            <span style="font-size: 3em"> <i class="fab fa-github"></i> </span>
-          </div>
+        <div class="col s12 l5 right-align">
+          <span style="font-size: 3em">
+            <i class="fab fa-linkedin"></i>
+          </span>
+          <span style="font-size: 3em"> <i class="fab fa-github"></i> </span>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">Cv réalisé avec Materialize 2019</div>
-      </div>
-    </footer>
-    <!--scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="initialise.js"></script>
-   
-  </body>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">Cv réalisé avec Materialize 2019</div>
+    </div>
+  </footer>
+  <!--scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="initialise.js"></script>
+
+</body>
+
 </html>
